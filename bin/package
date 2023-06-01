@@ -3,7 +3,7 @@
 set -e
 
 VERSION=$(ruby -Ilib -e "require 'version'; puts App::VERSION")
-OUTPUT="gh-repos-$VERSION.alfredworkflow"
+OUTPUT="alfred-github-projects-$VERSION.alfredworkflow"
 mkdir -p build
 rsync -r bin/* build/ --exclude package
 cp -r apps build/
