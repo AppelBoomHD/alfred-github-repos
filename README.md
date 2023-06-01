@@ -1,6 +1,6 @@
 # GitHub Repo project manager workflow for Alfred
 
-This fork of [alfred-github-repos](https://github.com/edgarjs/alfred-github-repos) enables you to automatically search and clone any GitHub repository via the GitHub Search API and open the project with Visual Studio Code. If you already have a local version of the selected GitHub repository, that directory will be opened.
+> This fork of [alfred-github-repos](https://github.com/edgarjs/alfred-github-repos) enables you to automatically search and clone any GitHub repository via the GitHub Search API and open the project with Visual Studio Code. If you already have a local version of the selected GitHub repository, that directory will be opened.
 
 ## Requirements
 
