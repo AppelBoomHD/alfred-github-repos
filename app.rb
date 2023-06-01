@@ -55,7 +55,7 @@ class App
 
     private
     def bool_env(env_var_name)
-      ENV.fetch(env_var_name, 'false').downcase == 'true'
+      ENV.fetch(env_var_name, false).downcase == '1'
     end
   end
 end

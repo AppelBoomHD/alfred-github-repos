@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>edgarjs.github-repos.workflow</string>
-	<key>category</key>
-	<string>Internet</string>
+	<string>com.julianriemersma.alfred-github-projects</string>
 	<key>connections</key>
 	<dict>
-		<key>19349FF9-A6A4-4D6A-ADBA-3F3092F9E727</key>
+		<key>15C3AE13-CB48-4CC6-B64A-C06FBD125516</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C192E47C-82CC-40C9-9B16-9675BB6A0E08</string>
+				<string>9A21CA82-3CD3-4F2A-9E7E-8DBDD22F99CB</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,11 +19,21 @@
 				<false/>
 			</dict>
 		</array>
-		<key>2BD5A2D8-1263-445C-818F-1149B117043F</key>
+		<key>19349FF9-A6A4-4D6A-ADBA-3F3092F9E727</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>094FF699-5788-4782-8466-393E63414D15</string>
+				<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open URL in Safari</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BADFD34D-4451-4F86-BE80-F75013F061A7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,9 +41,24 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>19B6C369-1FFD-4C84-AAB6-B9F9947449EB</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>AA6DB3CD-E9B5-42AC-ABC9-919DBB8F713B</string>
+				<string>51984D16-ABE2-40FA-A19D-C5EBA5F51DA0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EC796BE6-24AA-46E5-85FA-DACA9FC8A8FE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE39CD1A-CA05-484C-B5C3-559C234F5A21</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -57,17 +80,17 @@
 				<false/>
 			</dict>
 		</array>
-		<key>5A5FFC2F-634C-4DD4-A895-CB0E3C61BDD8</key>
+		<key>51984D16-ABE2-40FA-A19D-C5EBA5F51DA0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D1A2D55E-BB7C-481A-9058-E0838736E2AF</string>
+				<string>8CD397CC-5004-4A30-A5CF-D1EFDE1DEF5C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>72D9F53C-2F43-447A-8012-CA07801C1407</key>
@@ -76,44 +99,15 @@
 				<key>destinationuid</key>
 				<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>AA6DB3CD-E9B5-42AC-ABC9-919DBB8F713B</key>
-		<array/>
-		<key>C192E47C-82CC-40C9-9B16-9675BB6A0E08</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ECD9E1E3-9110-444A-A4FB-246C244D80B2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>7FFF337C-56F1-48BF-AEB5-0ADA4F845E33</string>
+				<string>Open URL in Safari</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>9374E671-4FB9-48BF-8834-95DDBFDA41CF</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>7FFF337C-56F1-48BF-AEB5-0ADA4F845E33</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
+				<string>BADFD34D-4451-4F86-BE80-F75013F061A7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -122,11 +116,37 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D1A2D55E-BB7C-481A-9058-E0838736E2AF</key>
+		<key>8CD397CC-5004-4A30-A5CF-D1EFDE1DEF5C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>8CC99A00-1347-4C19-9C6C-CEC5302B508D</string>
+				<string>DB1DEBFD-3428-47F8-934F-8B953D9EDB14</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9A21CA82-3CD3-4F2A-9E7E-8DBDD22F99CB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>19B6C369-1FFD-4C84-AAB6-B9F9947449EB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BADFD34D-4451-4F86-BE80-F75013F061A7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>15C3AE13-CB48-4CC6-B64A-C06FBD125516</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -139,30 +159,17 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C192E47C-82CC-40C9-9B16-9675BB6A0E08</string>
+				<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
 				<key>modifiers</key>
-				<integer>0</integer>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F2578320-696B-4844-AE63-6A9B88C77B26</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8E28AD52-A4BF-4D83-B831-536C53E12B4B</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
+				<string>Open URL in Safari</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>74368575-DA05-42F3-A54D-63168FF72AC8</string>
+				<string>BADFD34D-4451-4F86-BE80-F75013F061A7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -173,36 +180,15 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>edgarjs</string>
+	<string>Julian Riemersma</string>
 	<key>description</key>
-	<string>Easily open any GitHub repository</string>
+	<string>Easily clone or open any GitHub repository and open with Visual Studio Code</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>GitHub Repos</string>
+	<string>GitHub Repo project manager + VSCode</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>After you generate your access token, run `gh-login &lt;your-token&gt;` to authenticate</string>
-				<key>title</key>
-				<string>Opening new token page...</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>ECD9E1E3-9110-444A-A4FB-246C244D80B2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -229,17 +215,40 @@
 			<dict>
 				<key>browser</key>
 				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
 				<string>https://{var:GITHUB_HOST}/notifications</string>
-				<key>utf8</key>
-				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>7B59839B-A868-4F5C-8A93-5AFD865D55AE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -271,11 +280,7 @@
 				<key>runningsubtext</key>
 				<string>Fetching results...</string>
 				<key>script</key>
-				<string>if [ -z "$GITHUB_ACCESS_TOKEN" ]; then
-  echo '{"items":[{"title":"You need to log in first","subtitle":"Hit Enter to generate a new personal access token","arg":"unauthorized"}]}'
-else
-  apps/cli user-repos $1
-fi</string>
+				<string>apps/cli user-repos $1</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -295,76 +300,6 @@ fi</string>
 			<string>E1C4E73B-1758-44B6-9432-F9B0865AAAA6</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>After you generate your access token, run `gh-login &lt;your-token&gt;` to authenticate</string>
-				<key>title</key>
-				<string>Opening new token page...</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8E28AD52-A4BF-4D83-B831-536C53E12B4B</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>unauthorized</string>
-						<key>outputlabel</key>
-						<string>Not logged in</string>
-						<key>uid</key>
-						<string>7FFF337C-56F1-48BF-AEB5-0ADA4F845E33</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>C192E47C-82CC-40C9-9B16-9675BB6A0E08</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://{var:GITHUB_HOST}/settings/tokens/new?description=GitHub%20Repos%20Alfred%20workflow&amp;scopes=repo</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>9374E671-4FB9-48BF-8834-95DDBFDA41CF</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -394,11 +329,7 @@ fi</string>
 				<key>runningsubtext</key>
 				<string>Fetching results...</string>
 				<key>script</key>
-				<string>if [ -z "$GITHUB_ACCESS_TOKEN" ]; then
-  echo '{"items":[{"title":"You need to log in first","subtitle":"Hit Enter to generate a new personal access token","arg":"unauthorized"}]}'
-else
-  apps/cli user-pulls $1
-fi</string>
+				<string>apps/cli user-pulls $1</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -422,61 +353,25 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>gh-token</string>
-				<key>subtext</key>
-				<string>Once you have your token, run `gh-login &lt;your-token&gt;`</string>
-				<key>text</key>
-				<string>Generate a personal access token</string>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./find-project ${url}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>F2578320-696B-4844-AE63-6A9B88C77B26</string>
+			<string>15C3AE13-CB48-4CC6-B64A-C06FBD125516</string>
 			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://{var:GITHUB_HOST}/settings/tokens/new?description=GitHub%20Repos%20Alfred%20workflow&amp;scopes=repo</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>74368575-DA05-42F3-A54D-63168FF72AC8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</string>
-			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -530,159 +425,248 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
 				<false/>
-				<key>escaping</key>
+				<key>variables</key>
+				<dict>
+					<key>url</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>BADFD34D-4451-4F86-BE80-F75013F061A7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading directories...</string>
 				<key>script</key>
-				<string>on run argv
-    set bundleID to (system attribute "alfred_workflow_bundleid")
-    set token to (item 1 of argv)
-
-    tell application id "com.runningwithcrayons.Alfred"
-        set configuration "GITHUB_ACCESS_TOKEN" to value token in workflow bundleID
-    end tell
-end run</string>
+				<string>./run-node lib/commands/directories.js</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>subtext</key>
+				<string>Pick a directory to clone project in</string>
+				<key>title</key>
+				<string>Pick a directory...</string>
 				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>D1A2D55E-BB7C-481A-9058-E0838736E2AF</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Your personal access token has been saved</string>
-				<key>title</key>
-				<string>Token saved!</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8CC99A00-1347-4C19-9C6C-CEC5302B508D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>gh-login</string>
-				<key>subtext</key>
-				<string>Type `gh-token` to generate a new token</string>
-				<key>text</key>
-				<string>Paste your personal access token</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>5A5FFC2F-634C-4DD4-A895-CB0E3C61BDD8</string>
+			<string>51984D16-ABE2-40FA-A19D-C5EBA5F51DA0</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:project}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Clone</string>
+						<key>uid</key>
+						<string>EC796BE6-24AA-46E5-85FA-DACA9FC8A8FE</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Open existing project</string>
+				<key>hideelse</key>
 				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Host set to "{query}"</string>
-				<key>title</key>
-				<string>GitHub host saved!</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>094FF699-5788-4782-8466-393E63414D15</string>
+			<string>19B6C369-1FFD-4C84-AAB6-B9F9947449EB</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>project</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>9A21CA82-3CD3-4F2A-9E7E-8DBDD22F99CB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>directory</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8CD397CC-5004-4A30-A5CF-D1EFDE1DEF5C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
-				<key>keyword</key>
-				<string>gh-host</string>
-				<key>subtext</key>
-				<string>For example: api.github.com</string>
-				<key>text</key>
-				<string>Configure your host for Enterprise</string>
-				<key>withspace</key>
+				<key>argumenttreatemptyqueryasnil</key>
 				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>2BD5A2D8-1263-445C-818F-1149B117043F</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
 				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
 				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Cloning project in `{var:directory}` and opening in Visual Studio Code</string>
 				<key>script</key>
-				<string>on run argv
-    set bundleID to (system attribute "alfred_workflow_bundleid")
-    set token to (item 1 of argv)
-
-    tell application id "com.runningwithcrayons.Alfred"
-        set configuration "GITHUB_API_HOST" to value token in workflow bundleID with exportable
-    end tell
-end run</string>
+				<string>./open-project -c ${url} -d ${directory}</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Cloning project in `{var:directory}` and opening in Visual Studio Code</string>
+				<key>title</key>
+				<string>Cloning project...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>DB1DEBFD-3428-47F8-934F-8B953D9EDB14</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Opening existing project `{var:project}`</string>
+				<key>script</key>
+				<string>./open-project -d ${project}</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>subtext</key>
+				<string>Opening existing project `{var:project}`</string>
+				<key>title</key>
+				<string>Opening existing project...</string>
 				<key>type</key>
-				<integer>6</integer>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>AA6DB3CD-E9B5-42AC-ABC9-919DBB8F713B</string>
+			<string>BE39CD1A-CA05-484C-B5C3-559C234F5A21</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># GitHub Repos workflow for Alfred
+	<string># GitHub Repo project manager workflow for Alfred
 
-This is a custom workflow for the Alfred app that lets you search and open a GitHub repository via the GitHub Search API.
+This fork enables you to automatically search and clone any GitHub repository via the GitHub Search API and open the project with Visual Studio Code. If you already have a local version of the selected GitHub repository, that directory will be opened.
 
 ## Authentication
 
-You'll need to authenticate with a personal access token that you can generate in the GitHub developer settings page or by running `gh-token` in Alred.
+You'll need to authenticate with a personal access token that you can generate in the GitHub developer settings page.
+[Generate token here](https://github.com/settings/tokens/new?description=GitHub%20Repos%20Alfred%20workflow&amp;scopes=repo)
 
-After you have copied your personal access token, open this dialog again and replace the value of the variable with your token.
-
+Simply copy and paste this token into the user configuration.
 
 ## Usage
 
@@ -717,7 +701,7 @@ This command just opens your GitHub notification page.
 
 ## Configuring host for Enterprise
 
-If you're using an Enterprise account, you can call the `gh-host &lt;host&gt;` command.
+If you're using an Enterprise account, you can configure a custom api host in the user configuration.
 
 ---
 
@@ -725,162 +709,320 @@ If you're using an Enterprise account, you can call the `gh-host &lt;host&gt;` c
 
 You can submit your bug reports or feature requests at:
 
-https://github.com/edgarjs/alfred-github-repos/issues</string>
+https://github.com/AppelBoomHD/alfred-github-projects/issues</string>
 	<key>uidata</key>
 	<dict>
-		<key>094FF699-5788-4782-8466-393E63414D15</key>
+		<key>15C3AE13-CB48-4CC6-B64A-C06FBD125516</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1150</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>565</integer>
+			<real>320</real>
 		</dict>
 		<key>19349FF9-A6A4-4D6A-ADBA-3F3092F9E727</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<real>45</real>
 			<key>ypos</key>
-			<integer>215</integer>
+			<real>215</real>
 		</dict>
-		<key>2BD5A2D8-1263-445C-818F-1149B117043F</key>
+		<key>19B6C369-1FFD-4C84-AAB6-B9F9947449EB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>765</integer>
+			<real>175</real>
 			<key>ypos</key>
-			<integer>645</integer>
+			<real>630</real>
 		</dict>
 		<key>381B37AB-78A2-43C6-9D32-878D4A81B5B5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>760</integer>
+			<real>760</real>
 			<key>ypos</key>
-			<integer>35</integer>
+			<real>35</real>
 		</dict>
-		<key>5A5FFC2F-634C-4DD4-A895-CB0E3C61BDD8</key>
+		<key>51984D16-ABE2-40FA-A19D-C5EBA5F51DA0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>765</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>420</integer>
+			<real>595</real>
 		</dict>
 		<key>72D9F53C-2F43-447A-8012-CA07801C1407</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<real>45</real>
 			<key>ypos</key>
-			<integer>380</integer>
-		</dict>
-		<key>74368575-DA05-42F3-A54D-63168FF72AC8</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1145</integer>
-			<key>ypos</key>
-			<integer>280</integer>
+			<real>380</real>
 		</dict>
 		<key>7B59839B-A868-4F5C-8A93-5AFD865D55AE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1145</integer>
+			<real>1145</real>
 			<key>ypos</key>
-			<integer>35</integer>
+			<real>35</real>
 		</dict>
-		<key>8CC99A00-1347-4C19-9C6C-CEC5302B508D</key>
+		<key>8CD397CC-5004-4A30-A5CF-D1EFDE1DEF5C</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1145</integer>
+			<real>590</real>
 			<key>ypos</key>
-			<integer>420</integer>
+			<real>755</real>
 		</dict>
-		<key>8E28AD52-A4BF-4D83-B831-536C53E12B4B</key>
+		<key>9A21CA82-3CD3-4F2A-9E7E-8DBDD22F99CB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1145</integer>
+			<real>70</real>
 			<key>ypos</key>
-			<integer>150</integer>
+			<real>640</real>
 		</dict>
-		<key>9374E671-4FB9-48BF-8834-95DDBFDA41CF</key>
+		<key>BADFD34D-4451-4F86-BE80-F75013F061A7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>470</integer>
+			<real>340</real>
 			<key>ypos</key>
-			<integer>190</integer>
-		</dict>
-		<key>AA6DB3CD-E9B5-42AC-ABC9-919DBB8F713B</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1145</integer>
-			<key>ypos</key>
-			<integer>725</integer>
+			<real>410</real>
 		</dict>
 		<key>BBD79FE5-D671-40AB-A1EE-AEBE941E2FCB</key>
 		<dict>
 			<key>xpos</key>
-			<integer>470</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>380</integer>
+			<real>40</real>
 		</dict>
-		<key>C192E47C-82CC-40C9-9B16-9675BB6A0E08</key>
+		<key>BE39CD1A-CA05-484C-B5C3-559C234F5A21</key>
 		<dict>
 			<key>xpos</key>
-			<integer>260</integer>
+			<real>105</real>
 			<key>ypos</key>
-			<integer>160</integer>
+			<real>850</real>
 		</dict>
-		<key>D1A2D55E-BB7C-481A-9058-E0838736E2AF</key>
+		<key>DB1DEBFD-3428-47F8-934F-8B953D9EDB14</key>
 		<dict>
 			<key>xpos</key>
-			<integer>955</integer>
+			<real>550</real>
 			<key>ypos</key>
-			<integer>420</integer>
+			<real>850</real>
 		</dict>
 		<key>E1C4E73B-1758-44B6-9432-F9B0865AAAA6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>45</integer>
+			<real>45</real>
 			<key>ypos</key>
-			<integer>70</integer>
-		</dict>
-		<key>ECD9E1E3-9110-444A-A4FB-246C244D80B2</key>
-		<dict>
-			<key>xpos</key>
-			<integer>470</integer>
-			<key>ypos</key>
-			<integer>15</integer>
-		</dict>
-		<key>F2578320-696B-4844-AE63-6A9B88C77B26</key>
-		<dict>
-			<key>xpos</key>
-			<integer>765</integer>
-			<key>ypos</key>
-			<integer>215</integer>
+			<real>70</real>
 		</dict>
 	</dict>
-	<key>variables</key>
-	<dict>
-		<key>CACHE_TTL_SEC_ORG</key>
-		<string>86400</string>
-		<key>CACHE_TTL_SEC_PR</key>
-		<string>300</string>
-		<key>CACHE_TTL_SEC_REPO</key>
-		<string>86400</string>
-		<key>GITHUB_ACCESS_TOKEN</key>
-		<string></string>
-		<key>GITHUB_API_HOST</key>
-		<string>api.github.com</string>
-		<key>GITHUB_HOST</key>
-		<string>www.github.com</string>
-		<key>GITHUB_ME_ACCOUNT</key>
-		<string>@me</string>
-		<key>PR_ALL_INVOLVE_ME</key>
-		<string>true</string>
-	</dict>
-	<key>variablesdontexport</key>
+	<key>userconfigurationconfig</key>
 	<array>
-		<string>GITHUB_ACCESS_TOKEN</string>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>ghp_</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>GitHub access token</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GITHUB_ACCESS_TOKEN</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
+				<key>placeholder</key>
+				<string>~/Developer</string>
+				<key>required</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Project directory</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>PROJECT_DIR</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>True</string>
+			</dict>
+			<key>description</key>
+			<string>Include option to pick projects subdirectory</string>
+			<key>label</key>
+			<string>Include subdirectories</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>INC_SUBDIRS</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>www.github.com</string>
+				<key>placeholder</key>
+				<string>www.github.com</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>GitHub host</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GITHUB_HOST</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>api.github.com</string>
+				<key>placeholder</key>
+				<string>api.github.com</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>GitHub API host</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GITHUB_API_HOST</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<true/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>True</string>
+			</dict>
+			<key>description</key>
+			<string>If unchecked, only shows PR's in your organizations</string>
+			<key>label</key>
+			<string>Show all PR's your involved in</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>PR_ALL_INVOLVE_ME</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>@me</string>
+				<key>placeholder</key>
+				<string>@me</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>GitHub me account name</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>GITHUB_ME_ACCOUNT</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>86400</string>
+				<key>placeholder</key>
+				<string>86400</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>TTL for repositories (in seconds)</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>CACHE_TTL_SEC_REPO</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>86400</string>
+				<key>placeholder</key>
+				<string>86400</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>TTL for organizations (in seconds)</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>CACHE_TTL_SEC_ORG</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>300</string>
+				<key>placeholder</key>
+				<string>300</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>TTL for PR's (in seconds)</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>CACHE_TTL_SEC_PR</string>
+		</dict>
 	</array>
 	<key>version</key>
-	<string>3.1.3</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
-	<string>https://github.com/edgarjs/alfred-github-repos</string>
+	<string>https://github.com/AppelBoomHD/alfred-github-projects</string>
 </dict>
 </plist>

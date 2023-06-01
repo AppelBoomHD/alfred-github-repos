@@ -1,12 +1,23 @@
-# GitHub Repos workflow for Alfred
+# GitHub Repo project manager workflow for Alfred
 
-This is a custom workflow for the [Alfred app][alfred-app] that lets you search and open a GitHub repository via the GitHub Search API.
+This fork of [alfred-github-repos](https://github.com/edgarjs/alfred-github-repos) enables you to automatically search and clone any GitHub repository via the GitHub Search API and open the project with Visual Studio Code. If you already have a local version of the selected GitHub repository, that directory will be opened.
 
-## Authentication
+## Requirements
 
-You'll need to authenticate with a personal access token that you can generate in the [GitHub developer settings page][personal-access-token] or by running the `gh-token` command in Alfred.
+- [Visual Studio Code](https://code.visualstudio.com) (including the "[code](https://code.visualstudio.com/docs/setup/mac)" shell command)
+- [Node.js](https://nodejs.org)
+- [git](https://git-scm.com)
+- A GitHub Api token (how to obtain: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#about-personal-access-tokens)
 
-After you have copied your personal access token, run `gh-login <your-token>` to set your personal access token.
+## Installation
+
+### Manual
+
+1. Download the [workflow file](https://github.com/AppelBoomHD/alfred-vscode-github/releases/download/v1.0.1/alfred-vscode-github.alfredworkflow).
+2. Double-click the downloaded file to install the workflow.
+3. [Generate GitHub authentication token](https://github.com/settings/tokens/new?description=GitHub%20Repos%20Alfred%20workflow&scopes=repo)
+4. Simply copy and paste this token into the user configuration.
+5. Select your project directory in the user configuration
 
 ## Usage
 
@@ -42,26 +53,18 @@ This command just opens your [GitHub notification][notifications-page] page.
 
 ## Config Cache TTL
 
-You can customise the TTL for the internal caches of Repos/Organisations/PullRequests by seting the following
-environment variables. (all in seconds)
-
-```
-> CACHE_TTL_SEC_ORG  default: 86400
-> CACHE_TTL_SEC_PR  default: 300
-> CACHE_TTL_SEC_REPO default: 86400
-```
-
+You can customise the TTL for the internal caches of Repos/Organisations/PullRequests in the user configuration.
 
 ## Configuring host for Enterprise
 
-If you're using an Enterprise account, you can call the `gh-host <host>` command.
+If you're using an Enterprise account, you can configure a custom api host in the user configuration.
 
 ---
 
 ## Contributing
 
 You can submit your bug reports or feature requests at:
-https://github.com/edgarjs/alfred-github-repos/issues
+https://github.com/AppelBoomHD/alfred-github-projects/issues
 
 If you want to submit a Pull Request, please follow these simple guides:
 
@@ -82,8 +85,7 @@ This project is published under the [MIT License](LICENSE.md).
 
 [alfred-app]: https://www.alfredapp.com/
 [github-search]: https://docs.github.com/en/free-pro-team@latest/github/searching-for-information-on-github/searching-on-github
-[download-packal]: https://www.packal.org/workflow/github-repos
-[download-releases]: https://github.com/edgarjs/alfred-github-repos/releases
+[download-releases]: https://github.com/AppelBoomHD/alfred-github-projects/releases
 [personal-access-token]: https://github.com/settings/tokens/new?description=GitHub%20Repos%20Alfred%20workflow&scopes=repo
 [pulls-page]: https://github.com/pulls
 [notifications-page]: https://github.com/notifications

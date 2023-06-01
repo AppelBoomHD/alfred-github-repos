@@ -1,0 +1,50 @@
+#!/bin/bash
+
+check_error () {
+    if [ $? -gt 0 ]
+    then
+        if [ $1 = true ]; then rm -rf $URL; fi
+
+        if [[ "$OUTPUT" == *"internet"* ]]
+        then
+            ERRMSG="No internet connection"
+        elif [[ "$OUTPUT" == *"Name already exists"* ]]
+        then
+            ERRMSG="GitHub repo with name $bold$URL$normal already exists"
+        elif [[ "$OUTPUT" == *"File exists"* ]]
+        then
+            ERRMSG="Project folder with name $bold$URL$normal already exists"
+        else
+            ERRMSG=$OUTPUT
+        fi
+        
+        echo "{\"items\":[{\"title\":\"Error\",\"subtitle\":\"$ERRMSG\"}]}"
+        exit 1
+    fi
+}
+
+cd $PROJECT_DIR
+
+while getopts "c:d:" option; do
+    case $option in
+        c)
+            URL=$OPTARG;;
+        d)
+            DIR=$OPTARG;;
+        \?) # Invalid option
+            echo "Error: Invalid option"
+            exit;;
+   esac
+done
+
+cd $DIR
+if [ "$URL" != "" ]
+then
+    OUTPUT=$(git clone $URL 2>&1 > /dev/null)
+    check_error true
+    [[ $URL =~ ([^/]*)$ ]] && NAME=$BASH_REMATCH
+    cd $NAME
+fi
+
+code .
+exit

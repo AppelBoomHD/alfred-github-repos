@@ -5,6 +5,7 @@ set -e
 VERSION=$(ruby -Ilib -e "require 'version'; puts App::VERSION")
 OUTPUT="gh-repos-$VERSION.alfredworkflow"
 mkdir -p build
+rsync -r bin/* build/ --exclude package
 cp -r apps build/
 cp -r lib build/
 cp assets/* build/

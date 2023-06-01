@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+URL=$1
+
+cd $PROJECT_DIR
+[[ $URL =~ ([^/]*)$ ]] && NAME=$BASH_REMATCH
+OUTPUT=$(find * -name ${NAME} -maxdepth 1)
+if [ "$OUTPUT" != "" ]
+then
+    echo $OUTPUT
+    exit
+fi
+
+echo "true"
